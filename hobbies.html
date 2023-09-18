@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/hobbies.css">
+    <title>Hobbies</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg " style="background-color: #4B7A3E;">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="escolar.html">Educação</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projetos.html">Projetos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="hobbies.html" style="color:antiquewhite;">Hobbies</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="livros">
+            <h1 class="titulo">Top 10 livros</h1>
+            <p id="titulo">O sol é para todos - Harper Lee</p>
+            <p>Tudo que sei sobre o amor - Dolly Alderton</p>
+            <p>Sete anos de escuridão - You-Jeong Jeong</p>
+            <p>A fazenda dos bichos - George Orwell</p>
+            <p>Verity - Collen Hoover</p>
+            <p>A vida invesivel de Addie Laure - V. E. Schwab</p>
+            <p>As mil partes do meu coração - Collen Hoover</p>
+            <p>A culpa é das estrelas - John Green</p>
+            <p>Os setes maridos de Evelyn Hugo - Taylor Jenkins Reid</p>
+            <p>Até o verão terminar - Collen Hoover</p>
+        </div>
+        <div class="filmes">
+            <h1 class="titulo">Top 10 filmes</h1>
+            <p id="titulo"> A saga: Crepúsculo</p>
+            <p>Rastros de um sequestro</p>
+            <p>Ilha do Medo</p>
+            <p>A teoria de Tudo</p>
+            <p>Garota Exemplar</p>
+            <p>O menino do pijama listrado</p>
+            <p>Fragmentado</p>
+            <p>Gente Grande</p>
+            <p>Lorax</p>
+            <p>O Grinch</p>
+        </div>
+      </div>
+    <footer class="footer">
+      <p>Desenvolvido por Maria Eduarda Benevenutti</p>
+    </footer>
+    <script async src="https://cdn.jsdelivr.net/npm/es-module-shims@1/dist/es-module-shims.min.js" crossorigin="anonymous"></script>
+    <script type="importmap">
+    {
+      "imports": {
+        "@popperjs/core": "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/esm/popper.min.js",
+        "bootstrap": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.esm.min.js"
+      }
+    }
+    </script>
+    <script type="module">
+      import * as bootstrap from 'bootstrap'
+
+      new bootstrap.Popover(document.getElementById('popoverButton'))
+    </script>
+</body>
+</html>

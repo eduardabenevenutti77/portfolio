@@ -1,0 +1,122 @@
+.nav-item{
+    text-align: center;
+}
+body{
+    background-color:#F2E9DC;
+}
+.nav-link{
+    color: white;
+    font-size: large;
+}
+.formacao{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    color: #2B4422;
+}
+.ul{
+    padding: 40px;
+    font-weight: bold;
+    display: inline-block;
+}
+.espaco{
+    padding: 40px;
+    font-weight: bold;
+    display: inline-block;
+}
+.ulCurso{
+    font-weight: bold;
+    justify-content: space-between; /* Alinha os elementos com espaçamento igual entre eles */
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.il{
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    font-weight: lighter;
+    font-style: italic;
+    font-size: medium;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    background-color: #769b6b;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+@media screen and (max-width: 768px) {
+    .ul {
+      grid-template-columns: 1fr; /* Uma coluna em telas menores */
+      padding: 20px; /* Reduz o preenchimento */
+    }
+    .espaco{
+        padding-top: 5px;
+        grid-template-columns: 1fr; /* Uma coluna em telas menores */
+        padding: 20px; /* Reduz o preenchimento */
+    }
+    .il{
+        line-height: 15px;
+    }
+    .titulo {
+      font-size: 30px; /* Reduz o tamanho do título para telas menores */
+    }
+    .dropdown-content{
+        position: center;
+    }
+  }
+.curso2, .curso1{
+    padding-top: 20px;
+    margin-top: 10px;
+}
+@font-face {
+    font-family: "winterbeauty";
+    src: url("./font/winterbeauty-Script.otf") format("truetype");
+}
+.fonte-alterada {
+    font-family: winterbeauty;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    justify-items: center;
+    gap: 20px;
+    padding-top: 55px;
+    padding-bottom: 70px;
+}
+.footer{
+    grid-area: footer;
+    background-color: #769b6b;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+@font-face {
+    font-family: "Handlee-Regular";
+    src: url("./font/Handlee/Handlee-Regular.ttf") format("truetype");
+}
+.footer p {
+    margin: 0;
+    font-family: Handlee-Regular;
+    font-weight: lighter;
+    color:antiquewhite;
+    letter-spacing: 2px;
+}
