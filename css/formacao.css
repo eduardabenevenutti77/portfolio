@@ -1,8 +1,16 @@
-.nav-item{
-    text-align: center;
-}
 body{
     background-color:#F2E9DC;
+}
+p{
+    font-weight: lighter;
+    font-family: italic;
+    font-size: medium;
+}
+.nav-item{
+    text-align: center;
+    font-family: italic;
+    font-size: 20px;
+    font-weight: 800;
 }
 .nav-link{
     color: white;
@@ -26,7 +34,7 @@ body{
 }
 .ulCurso{
     font-weight: bold;
-    justify-content: space-between; /* Alinha os elementos com espaçamento igual entre eles */
+    justify-content: space-between; 
     align-items: center;
     list-style: none;
     padding: 0;
@@ -39,16 +47,10 @@ body{
     line-height: 10px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-p{
-    font-weight: lighter;
-    font-style: italic;
-    font-size: medium;
-}
 .dropdown {
     position: relative;
     display: inline-block;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -56,37 +58,8 @@ p{
     z-index: 1;
     background-color: #769b6b;
 }
-
 .dropdown:hover .dropdown-content {
     display: block;
-}
-@media screen and (max-width: 768px) {
-    .ul {
-      grid-template-columns: 1fr; /* Uma coluna em telas menores */
-      padding: 20px; /* Reduz o preenchimento */
-    }
-    .espaco{
-        padding-top: 5px;
-        grid-template-columns: 1fr; /* Uma coluna em telas menores */
-        padding: 20px; /* Reduz o preenchimento */
-    }
-    .il{
-        line-height: 15px;
-    }
-    .titulo {
-      font-size: 30px; /* Reduz o tamanho do título para telas menores */
-    }
-    .dropdown-content{
-        position: center;
-    }
-  }
-.curso2, .curso1{
-    padding-top: 20px;
-    margin-top: 10px;
-}
-@font-face {
-    font-family: "winterbeauty";
-    src: url("./font/winterbeauty-Script.otf") format("truetype");
 }
 .fonte-alterada {
     font-family: winterbeauty;
@@ -109,14 +82,46 @@ p{
     text-align: center;
     padding: 20px 0;
 }
-@font-face {
-    font-family: "Handlee-Regular";
-    src: url("./font/Handlee/Handlee-Regular.ttf") format("truetype");
-}
 .footer p {
     margin: 0;
     font-family: Handlee-Regular;
     font-weight: lighter;
     color:antiquewhite;
     letter-spacing: 2px;
+}
+.curso2, .curso1{
+    padding-top: 20px;
+    margin-top: 10px;
+}
+@media screen and (max-width: 768px) {
+    .ul {
+      grid-template-columns: 1fr; 
+      padding: 20px; 
+    }
+    .espaco{
+        padding-top: 5px;
+        grid-template-columns: 1fr; 
+        padding: 20px; 
+    }
+    .il{
+        line-height: 15px;
+    }
+    .titulo {
+      font-size: 30px; 
+    }
+    .dropdown-content{
+        position: center;
+    }
+}
+@font-face {
+    font-family: "winterbeauty";
+    src: url("./font/winterbeauty-Script.otf") format("truetype");
+}
+@font-face {
+    font-family: 'italic';
+    src: url("./font/Dosis-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Handlee-Regular";
+    src: url("./font/Handlee/Handlee-Regular.ttf") format("truetype");
 }

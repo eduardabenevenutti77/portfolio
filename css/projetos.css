@@ -1,23 +1,28 @@
-.nav-item{
-    text-align: center;
-}
 body{
     background-color:#F2E9DC;
+    font-family: italic;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #406d30;
+}
+.nav-item{
+    text-align: center;
+    font-family: italic;
+    font-size: 20px;
+    font-weight: 800;
 }
 .nav-link{
     color: white;
     font-size: large;
-}
-@font-face {
-    font-family: "Handlee-Regular";
-    src: url("./font/Handlee/Handlee-Regular.ttf") format("truetype");
 }
 .container{
     text-align: center;
 }
 .pair{
     display: block;
-    margin-bottom: 20px; /* Espaçamento vertical entre pares */
+    margin-bottom: 20px; 
     padding-top: 4px;
 }
 .jokenpo,.caca,.adivinha,.caixa,.invest,.calcu{
@@ -26,7 +31,7 @@ body{
     margin: 10px;
     padding: 20px;
     text-align: center;
-    width: calc(50% - 20px); /* Define a largura de cada elemento para ocupar metade da largura do contêiner */
+    width: calc(50% - 20px);
     box-sizing: border-box;
 }
 .titulo{
@@ -39,11 +44,6 @@ body{
 .conteudo{
     padding-top: 15px;
 }
-a{
-    text-decoration: none;
-    font-weight: bold;
-    color: #406d30;
-}
 .footer{
     grid-area: footer;
     background-color: #769b6b;
@@ -54,14 +54,22 @@ a{
     text-align: center;
     padding: 20px 0;
 }
-@font-face {
-    font-family: "Handlee-Regular";
-    src: url("./font/Handlee/Handlee-Regular.ttf") format("truetype");
-}
 .footer p {
     margin: 0;
     font-family: Handlee-Regular;
     font-weight: lighter;
     color:antiquewhite;
     letter-spacing: 2px;
+}
+@font-face {
+    font-family: "Handlee-Regular";
+    src: url("./font/Handlee/Handlee-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Handlee-Regular";
+    src: url("./font/Handlee/Handlee-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'italic';
+    src: url("./font/Dosis-VariableFont_wght.ttf");
 }

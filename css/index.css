@@ -1,12 +1,21 @@
-.nav-item{
-    text-align: center;
-}
 body{
     background-color:#F2E9DC;
 }
-.nav-link{
-    color: white;
-    font-size: large;
+p{
+    padding-right: 50px;
+    margin: 25px;
+    font-family: 'italic';
+    font-size: 18px;
+}
+strong{
+    color: #3B5E31;
+}
+img{
+    padding: 20px;
+}
+#pych{
+    width: 99px;
+    height: 99px;
 }
 #apresentacao{
     font-size: 20px;
@@ -16,9 +25,15 @@ body{
     color: #3B5E31;
     margin-bottom: 10px;
 }
-p{
-    padding-right: 50px;
-    margin: 25px;
+.nav-item{
+    text-align: center;
+    font-family: italic;
+    font-size: 20px;
+    font-weight: 800;
+}
+.nav-link{
+    color: white;
+    font-size: large;
 }
 .container {
     text-align: center; 
@@ -26,47 +41,29 @@ p{
     width: 70%; 
     margin: 0 auto; 
 }
-strong{
-    color: #3B5E31;
-}
 .link{
     width: 55px;
     height: 55px;
 }
 .btn{
-    /*background-color: #73b45d;*/
     font-weight: bold;
 }
 .botao{
     padding-right: 85px;
     padding-top: 25px;
 }
-@font-face {
-    font-family: "winterbeauty";
-    src: url("./font/winterbeauty-Script.otf") format("truetype");
-}
 .fonte-alterada {
     font-family: winterbeauty;
     padding-top: 45px;
-    margin-left: 740px;
+    text-align: center;
     font-size: 40px;
     color: #406d30;
-    margin-bottom: -40px;
-}
-#pych{
-    width: 99px;
-    height: 99px;
-}
-img{
-    padding: 20px;
 }
 .containerLF{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    justify-content: center; /* Centralizar a grade horizontalmente */
-    padding: 30px;
-    gap: 10px; /* Adicionar espaço entre as divs */
-    max-width: 600px; /* Defina a largura máxima da grade */
+    justify-content: center; 
+    max-width: 600px; 
     margin: 0 auto;
     padding-top: 2px;
 }
@@ -74,25 +71,6 @@ img{
     padding-top: 100%;
     position: relative;
 }
-@media screen and (max-width: 768px) {
-    .containerLF {
-      grid-template-columns: repeat(5, 1fr); /* Reduz o número de colunas */
-      max-width: 200px; /* Reduz a largura máxima */
-      padding: 20px; /* Reduz o preenchimento */
-    }
-    .fonte-alterada {
-        font-size: 30px; /* Reduza o tamanho da fonte para telas menores */
-        padding-left: 20px; /* Ajuste o espaçamento à esquerda */
-        padding-right: 20px; /* Ajuste o espaçamento à direita (se necessário) */
-        text-align: center;
-      }  
-      #apresentacao{
-        text-align: center;
-      }  
-      #texto{
-        text-align: center;
-      }
-  }
 .footer{
     grid-area: footer;
     background-color: #769b6b;
@@ -105,14 +83,41 @@ img{
     margin-top: 135px;
     justify-content: flex-end;
 }
-@font-face {
-    font-family: "Handlee-Regular";
-    src: url("./font/Handlee/Handlee-Regular.ttf") format("truetype");
-}
 .footer p {
     margin: 0;
     font-family: Handlee-Regular;
     font-weight: lighter;
     color:antiquewhite;
     letter-spacing: 2px;
+}
+@font-face {
+    font-family: "winterbeauty";
+    src: url("./font/winterbeauty-Script.otf") format("truetype");
+}
+@media screen and (max-width: 768px) {
+    .containerLF {
+      grid-template-columns: repeat(5, 1fr);
+      max-width: 200px; 
+      padding: 20px; 
+    }
+    .fonte-alterada {
+        font-size: 30px; 
+        padding-left: 20px; 
+        padding-right: 20px; 
+        text-align: center;
+      }  
+      #apresentacao{
+        text-align: center;
+      }  
+      #texto{
+        text-align: center;
+      }
+}
+@font-face {
+    font-family: "Handlee-Regular";
+    src: url("./font/Handlee/Handlee-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'italic';
+    src: url("./font/Dosis-VariableFont_wght.ttf");
 }
