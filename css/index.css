@@ -66,6 +66,8 @@ img{
     max-width: 600px; 
     margin: 0 auto;
     padding-top: 2px;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 .containerLF > img {
     padding-top: 100%;
@@ -89,6 +91,27 @@ img{
     font-weight: lighter;
     color:antiquewhite;
     letter-spacing: 2px;
+}
+.atuacao {
+    margin-top: 5px;
+}
+.atuacao-title {
+    font-family: winterbeauty;
+    text-align: center;
+    font-size: 40px;
+    color: #406d30;
+}
+.empresa {
+    font-size: 24px;
+    font-weight: bold;
+}
+.date {
+    font-weight: 500;
+}
+.display {
+    width: 450px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 @font-face {
     font-family: "winterbeauty";
