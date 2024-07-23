@@ -1,38 +1,38 @@
-body{
+body {
     background-color:#F2E9DC;
 }
-p{
+p {
     font-weight: lighter;
     font-family: italic;
     font-size: medium;
 }
-.nav-item{
+.nav-item {
     text-align: center;
     font-family: italic;
     font-size: 20px;
     font-weight: 800;
 }
-.nav-link{
+.nav-link {
     color: white;
     font-size: large;
 }
-.formacao{
+.formacao {
     padding-top: 50px;
     text-align: center;
     font-size: 50px;
     color: #2B4422;
 }
-.ul{
+.ul {
     padding: 40px;
     font-weight: bold;
     display: inline-block;
 }
-.espaco{
+.espaco {
     padding: 40px;
     font-weight: bold;
     display: inline-block;
 }
-.ulCurso{
+.ulCurso {
     font-weight: bold;
     justify-content: space-between; 
     align-items: center;
@@ -40,7 +40,7 @@ p{
     padding: 0;
     margin: 0;
 }
-.il{
+.il {
     padding-left: 10px;
     font-weight: bold;
     font-size: 15px;
@@ -64,7 +64,7 @@ p{
 .fonte-alterada {
     font-family: winterbeauty;
 }
-.container{
+.container {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
     justify-items: center;
@@ -72,7 +72,7 @@ p{
     padding-top: 55px;
     padding-bottom: 70px;
 }
-.footer{
+.footer {
     grid-area: footer;
     background-color: #769b6b;
     grid-template-columns: auto;
@@ -89,7 +89,7 @@ p{
     color:antiquewhite;
     letter-spacing: 2px;
 }
-.curso2, .curso1{
+.curso2, .curso1 {
     padding-top: 20px;
     margin-top: 10px;
 }
@@ -98,18 +98,18 @@ p{
       grid-template-columns: 1fr; 
       padding: 20px; 
     }
-    .espaco{
+    .espaco {
         padding-top: 5px;
         grid-template-columns: 1fr; 
         padding: 20px; 
     }
-    .il{
+    .il {
         line-height: 15px;
     }
     .titulo {
       font-size: 30px; 
     }
-    .dropdown-content{
+    .dropdown-content {
         position: center;
     }
 }

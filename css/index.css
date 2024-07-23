@@ -128,13 +128,13 @@ img{
         padding-left: 20px; 
         padding-right: 20px; 
         text-align: center;
-      }  
-      #apresentacao{
+    }  
+    #apresentacao{
         text-align: center;
-      }  
-      #texto{
+    }  
+    #texto{
         text-align: center;
-      }
+    }
 }
 @font-face {
     font-family: "Handlee-Regular";

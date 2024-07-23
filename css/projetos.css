@@ -1,31 +1,31 @@
-body{
+body {
     background-color:#F2E9DC;
     font-family: italic;
 }
-a{
+a {
     text-decoration: none;
     font-weight: bold;
     color: #406d30;
 }
-.nav-item{
+.nav-item {
     text-align: center;
     font-family: italic;
     font-size: 20px;
     font-weight: 800;
 }
-.nav-link{
+.nav-link {
     color: white;
     font-size: large;
 }
-.container{
+.container {
     text-align: center;
 }
-.pair{
+.pair {
     display: block;
     margin-bottom: 20px; 
     padding-top: 4px;
 }
-.jokenpo,.caca,.adivinha,.caixa,.invest,.calcu{
+.jokenpo,.caca,.adivinha,.caixa,.invest,.calcu {
     display: inline-block;
     border: 2px solid #3B5E31;
     margin: 10px;
@@ -34,17 +34,17 @@ a{
     width: calc(50% - 20px);
     box-sizing: border-box;
 }
-.titulo{
+.titulo {
     text-align: center;
     font-size: large;
     font-family: Handlee-Regular;
     font-weight: bold;
     color: #406d30;
 }
-.conteudo{
+.conteudo {
     padding-top: 15px;
 }
-.footer{
+.footer {
     grid-area: footer;
     background-color: #769b6b;
     grid-template-columns: auto;
