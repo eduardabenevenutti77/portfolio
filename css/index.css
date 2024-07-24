@@ -32,7 +32,8 @@ img{
 #apresentacao{
     font-size: 20px;
     padding-left: 25px;
-    padding-top: 50px;
+    padding-top: 0;
+    /* padding-top: 50px; */
     font-weight: bold;
     font-family: 'italic';
     color: #3B5E31;
@@ -44,6 +45,11 @@ img{
     padding-top: 25px;
     text-align: justify;
 }
+#funcao {
+    font-family: italic;
+    font-size: 17px;
+    font-weight: 400;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -52,6 +58,11 @@ img{
     background-color: #83B3A8;
     color: #fff;
     border-radius: 5px;
+}
+.nav-link {
+    font-family: italic;
+    font-weight: 800;
+    font-size: 20px;
 }
 #logo {
     font-family: "Koulen", sans-serif;
@@ -78,6 +89,15 @@ img{
     padding: 20px; 
     width: 70%; 
     margin: 0 auto; 
+}
+.title {
+    font-size: 20px;
+    padding-left: 25px;
+    /* padding-top: 50px; */
+    font-weight: bold;
+    font-family: 'italic';
+    color: #3B5E31;
+    /* margin-bottom: 10px;    */
 }
 .fonte-alterada {
     font-family: italic;
@@ -142,9 +162,20 @@ img{
 }
 .date {
     font-weight: 500;
+    font-family: italic;
+    font-size: 17px;
+    /* font-weight: 600; */
+}
+.atividade {
+    font-family: italic;
+    font-size: 17px;
+    font-weight: 400;
 }
 .funcao {
     padding-top: 0;
+    font-family: italic;
+    font-size: 17px;
+    font-weight: 600;
 }
 .weld {
     margin-left: 140px;
@@ -165,6 +196,62 @@ img{
 }
 .line:hover {
     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+}
+.conhecimento {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-items: center;
+}
+.ferramentas-name {
+    font-family: italic;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: #406d30;
+    /* padding-left: 250px; */
+    padding-bottom: 25px;
+}
+.linguagens-name {
+    font-family: italic;
+    text-align: left;
+    font-weight: 700;
+    font-size: 30px;
+    color: #406d30;
+    padding-left: 150px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.ferramentas {
+    margin-left: 220px;
+    width: 855px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#ferramenta-name {
+    font-size: 20px;
+    font-family: koulen;
+    padding-bottom: 0;
+}
+.ferramenta-conhecimento {
+    font-family: italic;
+    font-size: 17px;
+    font-weight: 600;
+}
+.linguagens {
+    margin-left: 120px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.linguagem-name {
+    font-size: 20px;
+    font-family: koulen;
+    padding-bottom: 0;
+}
+.linguagem-conhecimento {
+    font-family: italic;
+    font-size: 17px;
+    font-weight: 600;
 }
 @font-face {
     font-family: "winterbeauty";

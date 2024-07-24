@@ -30,6 +30,11 @@ strong:hover {
     color: #fff;
     border-radius: 5px;
 }
+.nav-link {
+    font-family: italic;
+    font-weight: 800;
+    font-size: 20px;
+}
 #logo {
     font-family: "Koulen", sans-serif;
     font-size: 28px;
@@ -81,7 +86,7 @@ strong:hover {
     font-weight: bold;
     font-size: 15px;
     line-height: 10px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: italic;
 }
 .dropdown {
     position: relative;
@@ -101,8 +106,9 @@ strong:hover {
     font-family: italic;
 }
 .container {
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr); 
+    grid-template-columns: repeat(5, 1fr); 
     justify-items: center;
     gap: 20px;
     padding-top: 55px;
