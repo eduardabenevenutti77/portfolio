@@ -1,14 +1,17 @@
 body{
     background-color:#F2E9DC;
 }
-p{
+/* p{
     padding-right: 50px;
     margin: 25px;
     font-family: 'italic';
     font-size: 18px;
-}
+} */
 strong{
     color: #3B5E31;
+}
+strong:hover {
+    color: #65a354;
 }
 img{
     padding: 20px;
@@ -22,8 +25,14 @@ img{
     padding-left: 25px;
     padding-top: 50px;
     font-weight: bold;
+    font-family: 'italic';
     color: #3B5E31;
     margin-bottom: 10px;
+}
+#texto {
+    font-family: 'italic';
+    font-size: 18px;
+    padding-top: 25px;
 }
 .nav-item{
     text-align: center;
@@ -53,9 +62,10 @@ img{
     padding-top: 25px;
 }
 .fonte-alterada {
-    font-family: winterbeauty;
+    font-family: italic;
     padding-top: 45px;
     text-align: center;
+    font-weight: 700;
     font-size: 40px;
     color: #406d30;
 }
@@ -96,22 +106,47 @@ img{
     margin-top: 5px;
 }
 .atuacao-title {
-    font-family: winterbeauty;
-    text-align: center;
-    font-size: 40px;
+    font-family: italic;
+    text-align: left;
+    font-weight: 700;
+    font-size: 30px;
     color: #406d30;
+    padding-left: 130px;
+    padding-bottom: 25px;
 }
 .empresa {
     font-size: 24px;
-    font-weight: bold;
+    font-family: koulen;
+}
+.empresa:hover {
+    color: #406d30;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .date {
     font-weight: 500;
 }
-.display {
-    width: 450px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.funcao {
+    padding-top: 0;
+}
+.weld {
+    margin-left: 200px;
+}
+.line {
+    width: 65%;
+    height: 3px;
+    border: 1px solid #406d30;
+    color: #406d30;
+    background-color: #406d30;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    margin-left: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* margin: 20px 0; */
+    transition: box-shadow 0.3s ease;
+}
+.line:hover {
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
 }
 @font-face {
     font-family: "winterbeauty";
@@ -143,4 +178,12 @@ img{
 @font-face {
     font-family: 'italic';
     src: url("./font/Dosis-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "paprika";
+    src: url("./font/Paprika-Regular.ttf")
+}
+@font-face {
+    font-family: koulen;
+    src: url("./font/Koulen-Regular.ttf");
 }
