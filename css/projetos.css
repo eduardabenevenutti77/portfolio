@@ -1,44 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body {
-    background-color:#F2E9DC;
-    font-family: italic;
+    background-color: #f7f7f7;
+    /* font-family: "agbalmo", sans-serif; */
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
 }
 a {
     text-decoration: none;
     font-weight: bold;
     color: #406d30;
 }
-.nav-item {
-    text-align: center;
-    font-family: italic;
-    font-size: 20px;
-    font-weight: 800;
+a:hover {
+    color: #65a354;
 }
-.nav-link {
-    color: white;
-    font-size: large;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #83B3A8;
+    color: #fff;
+    border-radius: 5px;
+}
+#logo {
+    font-family: "Koulen", sans-serif;
+    font-size: 28px;
+    color: black;
+}
+.links {
+    display: flex;
+    gap: 25px;
+}
+.elementos {
+    font-family: italic;
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+.elementos:hover {
+    color: #aaa;
 }
 .container {
     text-align: center;
 }
-.pair {
-    display: block;
-    margin-bottom: 20px; 
-    padding-top: 4px;
+.project {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 25px;
 }
-.jokenpo,.caca,.adivinha,.caixa,.invest,.calcu {
-    display: inline-block;
+.project-card {
+    width: 350px;
+    border: 1px solid #769b6b;
+    border-radius: 6px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+.project-card:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+/* .jokenpo,.caca,.adivinha,.caixa,.invest,.calcu {
     border: 2px solid #3B5E31;
     margin: 10px;
     padding: 20px;
     text-align: center;
-    width: calc(50% - 20px);
-    box-sizing: border-box;
-}
+} */
 .titulo {
     text-align: center;
-    font-size: large;
-    font-family: Handlee-Regular;
-    font-weight: bold;
+    /* font-size: large; */
+    font-family: italic;
+    font-size: 22px;
+    /* font-weight: bold; */
     color: #406d30;
 }
 .conteudo {
@@ -53,6 +93,7 @@ a {
     color: white;
     text-align: center;
     padding: 20px 0;
+    padding-top: 15px;
 }
 .footer p {
     margin: 0;
@@ -72,4 +113,8 @@ a {
 @font-face {
     font-family: 'italic';
     src: url("./font/Dosis-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "paprika";
+    src: url("./font/Paprika-Regular.ttf")
 }
