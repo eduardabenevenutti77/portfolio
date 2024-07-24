@@ -18,6 +18,9 @@ a {
 a:hover {
     color: #65a354;
 }
+strong {
+    font-family: italic;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -26,6 +29,11 @@ a:hover {
     background-color: #83B3A8;
     color: #fff;
     border-radius: 5px;
+}
+.nav-link {
+    font-family: italic;
+    font-weight: 800;
+    font-size: 20px;
 }
 #logo {
     font-family: "Koulen", sans-serif;
@@ -67,12 +75,12 @@ a:hover {
 .project-card:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
-/* .jokenpo,.caca,.adivinha,.caixa,.invest,.calcu {
-    border: 2px solid #3B5E31;
-    margin: 10px;
-    padding: 20px;
-    text-align: center;
-} */
+.web {
+    text-decoration: none;
+    font-weight: bold;
+    color: #305323;
+    font-family: italic;
+}
 .titulo {
     text-align: center;
     /* font-size: large; */
