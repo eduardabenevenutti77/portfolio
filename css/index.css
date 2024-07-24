@@ -1,5 +1,14 @@
-body{
-    background-color:#F2E9DC;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f7f7f7;
+    /* font-family: "agbalmo", sans-serif; */
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
 }
 /* p{
     padding-right: 50px;
@@ -33,33 +42,42 @@ img{
     font-family: 'italic';
     font-size: 18px;
     padding-top: 25px;
+    text-align: justify;
 }
-.nav-item{
-    text-align: center;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #83B3A8;
+    color: #fff;
+    border-radius: 5px;
+}
+#logo {
+    font-family: "Koulen", sans-serif;
+    font-size: 28px;
+    color: black;
+}
+.links {
+    display: flex;
+    gap: 25px;
+}
+.elementos {
     font-family: italic;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 800;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
 }
-.nav-link{
-    color: white;
-    font-size: large;
+.elementos:hover {
+    color: #aaa;
 }
 .container {
     text-align: center; 
     padding: 20px; 
     width: 70%; 
     margin: 0 auto; 
-}
-.link{
-    width: 55px;
-    height: 55px;
-}
-.btn{
-    font-weight: bold;
-}
-.botao{
-    padding-right: 85px;
-    padding-top: 25px;
 }
 .fonte-alterada {
     font-family: italic;
@@ -111,7 +129,7 @@ img{
     font-weight: 700;
     font-size: 30px;
     color: #406d30;
-    padding-left: 130px;
+    /* padding-left: 250px; */
     padding-bottom: 25px;
 }
 .empresa {
@@ -129,18 +147,18 @@ img{
     padding-top: 0;
 }
 .weld {
-    margin-left: 200px;
+    margin-left: 140px;
 }
 .line {
-    width: 65%;
-    height: 3px;
+    width: 30%;
+    height: 2px;
     border: 1px solid #406d30;
     color: #406d30;
     background-color: #406d30;
     border-radius: 4px;
     margin-top: 15px;
     margin-bottom: 35px;
-    margin-left: 250px;
+    margin-left: 450px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     /* margin: 20px 0; */
     transition: box-shadow 0.3s ease;

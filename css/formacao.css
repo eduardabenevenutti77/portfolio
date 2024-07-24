@@ -1,28 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body {
-    background-color:#F2E9DC;
+    background-color: #f7f7f7;
+    /* font-family: "agbalmo", sans-serif; */
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
 }
 p {
     font-weight: lighter;
     font-family: italic;
     font-size: medium;
 }
-.nav-item {
-    text-align: center;
-    font-family: italic;
-    font-size: 20px;
-    font-weight: 800;
+strong{
+    color: #3B5E31;
 }
-.nav-link {
-    color: white;
-    font-size: large;
+strong:hover {
+    color: #65a354;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #83B3A8;
+    color: #fff;
+    border-radius: 5px;
+}
+#logo {
+    font-family: "Koulen", sans-serif;
+    font-size: 28px;
+    color: black;
+}
+.links {
+    display: flex;
+    gap: 25px;
+}
+.elementos {
+    font-family: italic;
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+.elementos:hover {
+    color: #aaa;
 }
 .formacao {
     padding-top: 50px;
-    text-align: center;
-    font-size: 50px;
+    text-align: left;
+    padding-left: 30px;
+    font-size: 30px;
     color: #2B4422;
 }
 .ul {
+    /* font-family: koulen; */
     padding: 40px;
     font-weight: bold;
     display: inline-block;
@@ -62,7 +98,7 @@ p {
     display: block;
 }
 .fonte-alterada {
-    font-family: winterbeauty;
+    font-family: italic;
 }
 .container {
     display: grid;
@@ -124,4 +160,8 @@ p {
 @font-face {
     font-family: "Handlee-Regular";
     src: url("./font/Handlee/Handlee-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: koulen;
+    src: url("./font/Koulen-Regular.ttf");
 }
