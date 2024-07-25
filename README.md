@@ -44,13 +44,6 @@ Para visualizar este portfólio localmente, siga os passos abaixo:
 
 3. Abra o arquivo `index.html` no seu navegador de preferência.
 
-## Contato
-
-Você pode me encontrar e entrar em contato por meio dos seguintes canais:
-
-- **LinkedIn**: [www.linkedin.com/in/maria-eduarda-benevenutti]('www.linkedin.com/in/maria-eduarda-benevenutti-8aa046238/')
-- **E-mail**: mariaeduardabenevenutti77@gmail.com
-
 ---
 
 
