@@ -204,12 +204,12 @@ img{
 }
 .ferramentas-name {
     font-family: italic;
-    text-align: center;
+    text-align: left;
     font-weight: 700;
     font-size: 30px;
     color: #406d30;
-    /* padding-left: 250px; */
-    padding-bottom: 25px;
+    padding-left: 220px;
+    padding-bottom: 10px;
 }
 .linguagens-name {
     font-family: italic;
@@ -217,7 +217,7 @@ img{
     font-weight: 700;
     font-size: 30px;
     color: #406d30;
-    padding-left: 150px;
+    padding-left: 120px;
     padding-bottom: 25px;
     padding-top: 25px;
 }
@@ -239,7 +239,7 @@ img{
 }
 .linguagens {
     margin-left: 120px;
-    width: 90%;
+    width: 88%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
