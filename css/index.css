@@ -189,7 +189,10 @@ img{
     border-radius: 4px;
     margin-top: 15px;
     margin-bottom: 35px;
-    margin-left: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     /* margin: 20px 0; */
     transition: box-shadow 0.3s ease;
