@@ -220,7 +220,7 @@ img{
     font-weight: 700;
     font-size: 30px;
     color: #406d30;
-    padding-left: 120px;
+    padding-left: 140px;
     padding-bottom: 25px;
     padding-top: 25px;
 }
@@ -241,7 +241,7 @@ img{
     font-weight: 600;
 }
 .linguagens {
-    margin-left: 120px;
+    margin-left: 140px;
     width: 88%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
