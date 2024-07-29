@@ -4,6 +4,8 @@
 
 Bem-vindo ao meu portfólio! Este repositório contém projetos e trabalhos desenvolvidos por mim. Aqui você encontrará uma coleção de projetos, habilidades e experiências que demonstram minha capacidade em desenvolvimento web e outras áreas de tecnologia.
 
+##### Acesse na Web: [www.eduardabenevenutti.com.br](https://eduardabenevenutti77.github.io/portfolio/)
+
 ## Visão Geral
 
 Este portfólio foi criado para exibir minhas habilidades e conquistas em projetos de desenvolvimento. Nele, você encontrará informações sobre:
@@ -24,7 +26,6 @@ Este portfólio foi criado para exibir minhas habilidades e conquistas em projet
 
 - **HTML**: Estrutura básica das páginas.
 - **CSS**: Estilização e layout das páginas.
-- **JavaScript**: Funcionalidade interativa e lógica do portfólio.
 
 ## Como Executar o Projeto Localmente
 
